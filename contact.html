@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — NP Mobile Repair</title>
+<meta name="description" content="Book a repair, ask a question, or visit NP Mobile Repair at Model Town, Ludhiana. Open every day, 10 AM to 7 PM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <a href="index.html" class="brand"><span class="mark">NP</span> NP Mobile Repair</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="tel:+8699977137" class="nav-phone">📞 +91 8699977137</a>
+      <a href="contact.html" class="btn btn-primary"><span class="full">Book a</span> Repair</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> / Contact</div>
+    <span class="eyebrow">We're open today</span>
+    <h1>Tell us what's wrong. We'll quote it free.</h1>
+    <p>Fill in the form, call the shop, or just walk in — Model Town, Ludhiana, open every day.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid">
+
+    <div class="form-card">
+      <h3 style="font-size:20px;color:var(--ink);margin-bottom:6px;">Book a repair slot</h3>
+      <p style="color:var(--slate);font-size:14px;margin-bottom:22px;">We'll confirm your slot and an estimated price by phone or WhatsApp within the hour.</p>
+
+      <div class="form-success" id="formSuccess">Thanks! Your request has been noted — we'll call you shortly to confirm your slot.</div>
+
+      <form id="bookingForm">
+        <div class="form-grid-2">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="98765 43210" required>
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-row">
+            <label for="device">Device</label>
+            <input type="text" id="device" name="device" placeholder="e.g. iPhone 13, Galaxy S22">
+          </div>
+          <div class="form-row">
+            <label for="issue">Issue type</label>
+            <select id="issue" name="issue">
+              <option>Screen Replacement</option>
+              <option>Battery Replacement</option>
+              <option>Charging Port</option>
+              <option>Water Damage</option>
+              <option>Speaker / Mic</option>
+              <option>Camera</option>
+              <option>Something else</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Describe the problem</label>
+          <textarea id="message" name="message" rows="4" placeholder="What's happening with the phone?"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Submit Request →</button>
+        <p class="form-note">This is a demo form — connect it to your booking system or email service to start receiving real requests.</p>
+      </form>
+    </div>
+
+    <div>
+      <div class="contact-card">
+        <h3>Reach us directly</h3>
+        <div class="contact-line">
+          <div class="ic">📞</div>
+          <div>
+            <div class="label">Phone</div>
+            <div class="val">+91 8699977137</div>
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ic">💬</div>
+          <div>
+            <div class="label">WhatsApp</div>
+            <div class="val">+91 8699977137<small>Fastest response, usually under 10 min</small></div>
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ic">✉️</div>
+          <div>
+            <div class="label">Email</div>
+            <div class="val">hello@npmobilerepair.in</div>
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ic">📍</div>
+          <div>
+            <div class="label">Shop Address</div>
+            <div class="val">Shop No. 14, Model Town Market<br>Ludhiana, Punjab 141002</div>
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ic">🕒</div>
+          <div>
+            <div class="label">Hours</div>
+            <div class="val">Mon – Sun: 10:00 AM – 7:00 PM</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-box" style="margin-top:24px;">
+        <iframe
+          src="https://www.google.com/maps?q=Model+Town,+Ludhiana,+Punjab&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="NP Mobile Repair location map">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><span class="mark">NP</span> NP Mobile Repair</div>
+        <p class="foot-desc">Your neighbourhood mobile repair counter — fast diagnostics, fair pricing, genuine parts, every single day.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="index.html#services">Screen Replacement</a></li>
+          <li><a href="index.html#services">Battery Replacement</a></li>
+          <li><a href="index.html#services">Water Damage</a></li>
+          <li><a href="index.html#services">Charging Port</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>+91 8699977137</li>
+          <li>hello@npmobilerepair.in</li>
+          <li>Model Town, Ludhiana</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 NP Mobile Repair. All rights reserved.</span>
+      <div class="foot-social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/8699977137" class="float-wa" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+document.getElementById('bookingForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('formSuccess').classList.add('show');
+  this.reset();
+  document.getElementById('formSuccess').scrollIntoView({behavior:'smooth', block:'center'});
+});
+</script>
+
+</body>
+</html>
